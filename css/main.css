@@ -244,12 +244,15 @@ footer i {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+/* Tablet Display */
 
-@media all and (max-width: 768px){
+@media all and (min-width: 768px){
   body {
     padding: 1em;
   }
 }
+
+/* Monitors larger than 1200px */
 
 @media (min-width: 1200px) {
   .flex-items {
